@@ -1,6 +1,7 @@
 // Gradle repositories and dependencies
 buildscript {
     repositories {
+        mavenCentral()
         jcenter()
     }
     dependencies {
