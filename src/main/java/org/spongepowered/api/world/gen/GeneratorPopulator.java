@@ -38,11 +38,11 @@ import org.spongepowered.api.util.gen.MutableBlockBuffer;
 public interface GeneratorPopulator {
 
     /**
-     * Fill the {@link MutableBlockBuffer} with blocks, forming the base
-     * terrain.
+     * Operates on a {@link MutableBlockBuffer} either forming the base terrain
+     * or performing modifications during the generation phase.
      *
      * @param buffer The buffer to apply the changes to. The buffer can be of
-     *        any size.
+     *            any size.
      * @param biomes The biomes for generation
      */
     void populate(MutableBlockBuffer buffer, BiomeBuffer biomes);
